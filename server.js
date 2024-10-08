@@ -34,7 +34,7 @@ const MenuitemsRoute=require("./Routes/MenuitemsRouter.js");
 
 //main page 
 app.get("/", function (req, res) {
-  res.send("welcome to hotel");
+  res.send("Welcome to Hotel Management System.");
 });
 
 //use the routes as middleware
