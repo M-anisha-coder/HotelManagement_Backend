@@ -38,7 +38,7 @@ app.get("/", function (req, res) {
 });
 
 //use the routes as middleware
-//app.use("/person",localAuthmiddleware,PersonRoute);
+//app.use("/person",localAuthmiddleware,PersonRoute);   ------we can add local auth using passport and adding localAuthmiddleware middleware.
 app.use("/person",PersonRoute);
 app.use("/Menuitems",MenuitemsRoute);
 
